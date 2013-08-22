@@ -117,3 +117,7 @@ Stream.prototype.pipe = function(dest, options) {
   // Allow for unix-like usage: A.pipe(B).pipe(C)
   return dest;
 };
+
+Stream.prototype.setTimeout = function(timeout, callback) {
+  // todo
+};
